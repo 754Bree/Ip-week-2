@@ -45,6 +45,9 @@ h4 {
   color: red;
 
 }
-.id>submit{
-  background-color: black;
+input[type=submit]:hover{
+  background-color: red;
+}
+input[type=number]{
+  color: green;
 }
