@@ -1,5 +1,5 @@
 body {
-  height: 800px;
+  height: 900px;
   background-image: linear-gradient(grey,black);
   font-family: sans-serif;
 
@@ -39,4 +39,12 @@ h2 {
 }
 h4 {
   color: yellow;
+}
+.footer {
+  text-align: right;
+  color: red;
+
+}
+.id>submit{
+  background-color: black;
 }
