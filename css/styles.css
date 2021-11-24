@@ -1,5 +1,5 @@
 body {
-  height: 980px;
+  height: 1000px;
   background-image: linear-gradient(#8E0505,#FFCC1D,#0B4619);
   font-family: sans-serif;
 
@@ -27,7 +27,8 @@ body {
 }
 .Row {
   font-style: normal;
-  color: #00ff55;
+  color: whitesmoke;
+  font-size: medium;
 
 }
 h3 {
