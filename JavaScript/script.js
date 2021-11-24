@@ -38,7 +38,7 @@ function incorrect(day, month) {
     alert("Invalid Date");
     day.focus();
     return false;
-    
+
   } else if(month < 1 || month > 12){
     alert("Invalid Month");
     return false;
