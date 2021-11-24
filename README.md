@@ -20,6 +20,9 @@
 3. Scroll to be bottom page and key in your details.
 4. Finally, Click on the Submit  button to receive a popup at the top of your screen with your Ghanian name.
 
+## LINK:
+This is a link to the webpage: https://754bree.github.io/Ip-week-2/
+
 ## Perks
 
 #### 
