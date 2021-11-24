@@ -12,17 +12,19 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <script type="JavaScript/script.js">
-
-    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Ghana Naming Operator</title>
   </head>
   <body>
+
     <div class="container">
       <div class="header" >
           <div class="card">
             <h1><strong>AKAN NAMING OPERATOR</strong></h1>
-            <h2>This website was built in order to help people find their names judging by the date they were born!<br><strong>Ever dreamt of being Ghanian?</strong></h2>
+            <h1><strong>Ever dreamt of being Ghanian?</strong></h1>
+            <h2>This website was built in order to help people find their names judging by the date they were born!</h2>
           </div>
         </div>
     <div class="container">
@@ -68,16 +70,31 @@
     <div class="container">
       <div class="Row" id="column">
         <div class="card">
-        <h2>Did you know?</h2>
-        <p><h3>Did you know majority of the Ghanian population is named after days of the week?</h3><br>Akan names are derived from Ghanian culture.Frequently in ghana,children are given their first names as a 'day name' which corresponds to the day of the week they were born!<br><strong>Curious to know your ghanian name?Fill in the form below to be in the know!</strong></p>
+        <h2><strong><em>Did you know?</em></strong></h2>
+        <p><h3>Did you know majority of the Ghanian population is named after days of the week?</h3><br>Akan names are derived from Ghanian culture.Frequently in Ghana,children are given their first names as a 'day name' which corresponds to the day of the week they were born!<br><strong>Curious to know your ghanian name?Fill in the form below to be in the know!</strong></p>
        </div>
       </div>
     </div>
-    <div class="column">
+    <form>
+      <strong>Day:</strong>  <input type="number" name="Day" id="Day" required min="1" max="31">
+      <strong>Month:</strong> <input type="number" name="Month" id="Month" required min="1" max="12">
+      <strong>Year:</strong> <input type="number" name="Year" id="Year" required min="1788" max="2025">
+      <br>
+      <h3>Gender: </h3>
+      
+        <input type="radio" name="gender" value="Male" required>Male</input>
+        <input type="radio" name="gender" value="Female" required>Female</input>
+        <br>
+      <button type="submit" onclick="AkanNaming()" style="color: black;)">submit</button>
+
+
+
+    </form>
+    <!--<div class="column">
       <form class="response" action="index.html" method="post" onsubmit="getname">
         <p><h3>Enter your details below and see your Ghanian Name!</h3></p>
         <label for="YOB">Year Of Birth</label>
-        <input type="number" id="year" name="Year" min="1800" max="2000" placeholder="1800">
+        <input type="number" id="year" name="Year" min="1800" max="2010" placeholder="1800">
         <label for="Month">Month</label>
         <input type="number" name="month" min="1" max="12" placeholder="12">
         <label for="Date">Date</label>
@@ -91,17 +108,16 @@
 
       </form>
 
-    </div>
+    </div>-->
 
 
 
     <div class="footer">
-      <p>(c)2021 Copyright.<br>All rights reserved.</p>
+      <p><strong>(c)2021 Copyright.<br>All rights reserved.</st</p>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="JavaScript/script.js">
 
-
+    </script>
   </body>
 </html>
